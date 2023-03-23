@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #36b37e;
+  --secondary-color: #172b4d;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --tertiary-font: "Inter", sans-serif;
+  --skills-list-bg: #ebf0ee;
+  --skills-list-color: #3a4a42;
+  --p-text-color: #42526e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  position: relative;
+  align-content: space-between;
+  background: #fff;
+  width: 375px;
+  height: 718px;
+  top: 1px;
+}
+
+.main-container .topBar-nav {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+}
+
+.main-container .toolBar-nav .toolBar-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  height: 48px;
+  width: 375px;
+  border-radius: 0;
+}
+
+/* where the Logo Placed */
+
+.main-container .toolBar-nav .logo-setting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+}
+
+/* My Logo */
+
+.main-container .toolBar-nav .logo-setting .logo {
+  width: 76px;
+  height: 20px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-container .toolBar-nav .dash-setting {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.main-container .toolBar-nav .icons {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-container .toolBar-nav .icon-Union {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
+
+  /* background: #6070FF; */
+}
+
+/* shapes --- ellips and regtangles */
+.bg-shapes {
+  background-image: url(img/shapes.png);
+  position: absolute;
+  width: 462px;
+  height: 587.15px;
+  top: 104px;
+  margin: 0 auto;
+}
+
+.content-section {
+  /* position: fixed; */
+  padding: 114px 24px 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 25px;
+}
+
+/* h2 text/Primary Text/personal introduction */
+
+.content-section .text-1 {
+  width: 327px;
+  height: 150px;
+  margin-top: 90px;
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  align-items: center;
+  color: #172b4d;
+}
+
+/* praragraph/Primary Text/ personal description  */
+
+.content-section .text-2 {
+  width: 327px;
+  height: 146px;
+  margin-top: 10px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+/* LET’S CONNECT text */
+
+.content-section .lets-connect {
+  width: 517px;
+  height: 24px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 10px;
+}
+
+/* social media icons */
+
+.content-section .social-media-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.list {
+  border-radius: 0;
+  list-style: none;
+}
+
+.list a img {
+  height: 25px;
+  width: 25px;
+}
