@@ -25,7 +25,7 @@ body {
 
 .main-container {
   display: flex;
-  position: relative;
+  position: absolute;
   align-content: space-between;
   background: #fff;
   width: 375px;
@@ -113,29 +113,27 @@ body {
   height: 12px;
   left: 3px;
   top: 6px;
-
-  /* background: #6070FF; */
 }
 
 /* shapes --- ellips and regtangles */
 .bg-shapes {
   background-image: url(img/shapes.png);
   position: absolute;
-  width: 462px;
+  width: 375px;
   height: 587.15px;
-  top: 104px;
-  margin: 0 auto;
+  top: 24px;
 }
 
 .content-section {
-  /* position: fixed; */
-  padding: 114px 24px 114px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 12px;
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 25px;
+  left: 10px;
+  top: 92px;
 }
 
 /* h2 text/Primary Text/personal introduction */
@@ -143,7 +141,7 @@ body {
 .content-section .text-1 {
   width: 327px;
   height: 150px;
-  margin-top: 90px;
+  margin-top: 92px;
   font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
@@ -178,9 +176,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   padding-top: 10px;
 }
 
@@ -188,8 +183,8 @@ body {
 
 .content-section .social-media-icons {
   display: flex;
-  gap: 10px;
-  margin-top: 15px;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .list {
@@ -198,6 +193,6 @@ body {
 }
 
 .list a img {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
