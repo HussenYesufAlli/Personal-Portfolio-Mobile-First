@@ -1,127 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hussen Portfolio</title>
+  </head>
+  <body>
+    <!-- The toolbar (or header) section -->
 
-:root {
-  --primary-color: #36b37e;
-  --secondary-color: #172b4d;
-  --primary-font: "Poppins", sans-serif;
-  --secondary-font: "Roboto", sans-serif;
-  --tertiary-font: "Inter", sans-serif;
-  --skills-list-bg: #ebf0ee;
-  --skills-list-color: #3a4a42;
-  --p-text-color: #42526e;
-}
+    <header class="topBar-nav">
+      <div class="logo">
+        <a href="#"><img src="img/My-Logo.png" alt="HY" /></a>
+      </div>
+      <div class="icon-Union">
+        <a href="#"><img src="img/Union.png" alt="Three Dashs" /></a>
+      </div>
+    </header>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    <main>
+      <!-- The headline section (right after the header) -->
 
-.topBar-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 92px;
-}
+      <section class="content-section">
+        <div class="main-Container">
+          <div class="text-1">
+            <h1>I’m Hussen. Glad to see you!</h1>
+          </div>
+          <div class="text-2">
+            <p>
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+          </div>
 
-/* My Logo */
-
-.logo {
-  padding-left: 10px;
-}
-
-/* Three dash-setting */
-
-.icon-Union {
-  padding-right: 10px;
-}
-
-/* The headline section  */
-
-.content-section {
-  width: 100%;
-  height: 100%;
-  background-image: url(img/shapes.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main-Container {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 718px;
-  margin-left: 20px;
-  padding-top: 90px;
-}
-
-/* h1 text/Primary Text/personal introduction */
-
-.text-1 {
-  font-family: var(--tertiary-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 50px;
-  align-items: center;
-  color: #172b4d;
-}
-
-/* praragraph/Primary Text/ personal description  */
-
-.content-section .text-2 {
-  padding: 10px 0;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
-/* LET’S CONNECT text */
-.lets-connect {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* social media icons */
-
-.social-media-icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-.list {
-  border-radius: 0;
-  list-style: none;
-}
-
-.list a img {
-  height: 20px;
-  width: 20px;
-}
-
-@media (min-width: 375px) {
-  .content-section {
-    background-size: cover;
-  }
-}
-
-@media (min-width: 768px) {
-  .content-section {
-    width: 80%;
-  }
-}
+          <div class="lets-connect">
+            <a href="#">LET’S CONNECT</a>
+          </div>
+          <ul class="social-media-icons">
+            <li class="list">
+              <a href="https://twitter.com/">
+                <img src="img/t.png" alt="tiwetter" />
+              </a>
+            </li>
+            <li class="list">
+              <a href="https://twitter.com/">
+                <img src="img/Linkedin.png" alt="linkedin" />
+              </a>
+            </li>
+            <li class="list">
+              <a href=""> <img src="img/m.png" alt="medium" /> </a>
+            </li>
+            <li class="list">
+              <a href="https://github.com/HussenYesufAlli">
+                <img src="img/g.png" alt="github" />
+              </a>
+            </li>
+            <li class="list">
+              <a href=""> <img src="img/f.png" alt="f" /> </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
