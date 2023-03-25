@@ -60,18 +60,19 @@
 
 /* h1 text/Primary Text/personal introduction */
 
-.headingTxt {
+.text-1 {
   font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 34px;
+  line-height: 50px;
+  align-items: center;
   color: #172b4d;
 }
 
 /* praragraph/Primary Text/ personal description  */
 
-.text-2 {
+.content-section .text-2 {
   padding: 10px 0;
   font-family: var(--primary-font);
   font-style: normal;
@@ -79,7 +80,6 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding: 10px 0;
 }
 
 /* LET’S CONNECT text */
@@ -107,212 +107,6 @@ a {
 .list {
   border-radius: 0;
   list-style: none;
-}
-
-/* work-section */
-
-.work-section {
-  width: 100%;
-  height: 2788px;
-  top: 718px;
-}
-
-.work-container {
-  display: grid;
-  grid-template-columns: auto;
-  padding: 16px, 16px;
-  border-radius: 16px;
-  margin: 6px;
-  border: 1px solid #dfe1e6;
-}
-
-.cards {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  padding-left: 24px;
-}
-
-.snapshot-portofolio img {
-  width: 295px;
-  height: 220px;
-}
-
-.blocks {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-}
-
-.project-title {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #344563;
-  padding: 5px;
-}
-
-/* Frame 2 */
-
-.tframes {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-  gap: 10px;
-}
-
-.tframes h3 {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-}
-
-.frames-list {
-  display: flex;
-  gap: 10px;
-  list-style: disc;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
-
-.project-text {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.tag-list {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding: 10px;
-  gap: 10px;
-}
-
-.tag-list li {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: #6070ff;
-  background-color: rgb(235, 235, 255);
-  padding: 4px 12px;
-  border-radius: 8px;
-}
-
-.blocks-buttonWrapper {
-  padding: 5px 0;
-}
-
-.blocks-button {
-  border: 1px solid rgb(96, 112, 255);
-  border-radius: 8px;
-  padding: 12px;
-  color: #396df2;
-  background-color: #fff;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-}
-
-.blocks-button:hover {
-  background-color: #6070ff;
-  color: white;
-  transition: all ease 1s;
-}
-
-.blocks-button:active {
-  background-color: hsl(235, 72%, 48%);
-  color: white;
-  transition: all ease 1s;
-}
-
-/* About Myself-section */
-.about-section {
-  width: 100%;
-  height: auto;
-  padding-bottom: 15px;
-  background-image: url(img/about-img/about\ bg.png);
-}
-
-.about-Container {
-  display: flex;
-  gap: 12px;
-  flex-direction: column;
-  width: 80%;
-  margin-left: 20px;
-}
-
-.skil-List {
-  display: flex;
-  flex-direction: column;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  padding-top: 12px;
-  list-style-type: none;
-  padding-top: 10px;
-}
-
-.nameList {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 5px;
-}
-
-.skil-List-List {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 0 12px;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  list-style-type: none;
-}
-
-.skil-List-List-values {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 66.72px;
-  border-radius: 8px;
-  background: #f7f7f9;
-  padding: 12px;
-  gap: 8px;
-}
-
-.L-border {
-  border-bottom: solid #f7f7f9;
-}
-
-.skil-List-List-values img {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
 }
 
 .list a img {
