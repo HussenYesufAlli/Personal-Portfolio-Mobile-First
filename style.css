@@ -72,7 +72,7 @@
 
 /* praragraph/Primary Text/ personal description  */
 
-.content-section .text-2 {
+.text-2 {
   padding: 10px 0;
   font-family: var(--primary-font);
   font-style: normal;
@@ -112,6 +112,206 @@ a {
 .list a img {
   height: 20px;
   width: 20px;
+}
+
+/* work-section */
+
+.work-section {
+  width: 100%;
+  height: 2788px;
+  top: 718px;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 16px, 16px;
+  border-radius: 16px;
+  margin: 6px;
+  border: 1px solid #dfe1e6;
+}
+
+.cards {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  height: 552px;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+.snapshot-portofolio img {
+  background: url(blog_drbl_4x.png);
+  width: 295px;
+  height: 220px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.project-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #344563;
+  padding: 5px;
+}
+
+/* Frame 2 */
+
+.tframes {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 10px;
+}
+
+.tframes h3 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.frames-list {
+  display: flex;
+  gap: 10px;
+  list-style: disc;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.blocks .p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.tag-list li {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #6070ff;
+  background-color: rgb(235, 235, 255);
+}
+
+.blocks-button {
+  padding: 20px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+}
+
+.blocks-button:hover {
+  background-color: #6070ff;
+  color: white;
+  transition: all ease 1s;
+}
+
+.blocks-button:active {
+  background-color: hsl(235, 72%, 48%);
+  color: white;
+  transition: all ease 1s;
+}
+
+/* About Myself-section */
+.about-section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  background-image: url(img/about-img/about\ bg.png);
+}
+.about-Container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.skil-List {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 12px;
+  list-style-type: none;
+}
+
+.nameList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.skil-List-List {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 5px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  list-style-type: none;
+}
+
+.skil-List-List-values {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 66.72px;
+  border-radius: 8px;
+  background: #f7f7f9;
+  padding: 12px;
+  gap: 8px;
+}
+
+.L-border {
+  border-bottom: solid #f7f7f9;
+}
+
+.skil-List-List-values img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 @media (min-width: 375px) {
