@@ -60,13 +60,12 @@
 
 /* h1 text/Primary Text/personal introduction */
 
-.text-1 {
+.headingTxt {
   font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 34px;
-  line-height: 50px;
-  align-items: center;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
 }
 
@@ -80,6 +79,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding: 10px 0;
 }
 
 /* LET’S CONNECT text */
@@ -135,7 +135,6 @@ a {
 }
 
 .snapshot-portofolio img {
-  background: url(blog_drbl_4x.png);
   width: 295px;
   height: 220px;
 }
@@ -187,7 +186,7 @@ a {
   color: #7a869a;
 }
 
-.blocks .p {
+.project-text {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -200,6 +199,7 @@ a {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  padding: 10px;
   gap: 10px;
 }
 
@@ -209,22 +209,27 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: 0.08em;
   color: #6070ff;
   background-color: rgb(235, 235, 255);
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.blocks-buttonWrapper {
+  padding: 5px 0;
 }
 
 .blocks-button {
-  padding: 20px;
+  border: 1px solid rgb(96, 112, 255);
   border-radius: 8px;
+  padding: 12px;
+  color: #396df2;
+  background-color: #fff;
   font-family: var(--primary-font);
-  text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
 }
 
 .blocks-button:hover {
@@ -249,7 +254,7 @@ a {
 
 .about-Container {
   display: flex;
-  gap: 15px;
+  gap: 12px;
   flex-direction: column;
   width: 80%;
   margin-left: 20px;
@@ -265,6 +270,7 @@ a {
   line-height: 24px;
   padding-top: 12px;
   list-style-type: none;
+  padding-top: 10px;
 }
 
 .nameList {
@@ -277,8 +283,8 @@ a {
 .skil-List-List {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 0 5px;
+  gap: 12px;
+  padding: 0 12px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 500;
