@@ -49,7 +49,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[HTML&CSS linter Configuration]**
-- **[Header/toolbar and headline sectio]**
+- **[Header/toolbar and headline section]**
+- **[Works and About section]**
 - **[Responsive]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
