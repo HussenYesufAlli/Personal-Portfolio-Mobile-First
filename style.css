@@ -376,8 +376,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding-top: 15px;
   padding: 20 25px;
+  padding-top: 15px;
 }
 
 .contact-form-container input {
