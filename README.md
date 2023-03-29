@@ -51,6 +51,7 @@
 - **[HTML&CSS linter Configuration]**
 - **[Header/toolbar and headline section]**
 - **[Works and About section]**
+- **[Contact me section]**
 - **[Responsive]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
