@@ -1,336 +1,432 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Hussen Portfolio</title>
-  </head>
-  <body>
-    <!-- The toolbar (or header) section -->
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
 
-    <header class="topBar-nav">
-      <div class="logo">
-        <a href="#"><img src="img/My-Logo.png" alt="HY" /></a>
-      </div>
-      <div class="icon-Union">
-        <a href="#"><img src="img/Union.png" alt="Three Dashs" /></a>
-      </div>
-    </header>
+:root {
+  --primary-color: #36b37e;
+  --secondary-color: #172b4d;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --tertiary-font: "Inter", sans-serif;
+  --skills-list-bg: #ebf0ee;
+  --skills-list-color: #3a4a42;
+  --p-text-color: #42526e;
+}
 
-    <main>
-      <!-- The headline section (right after the header) -->
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      <section class="content-section">
-        <div class="main-Container">
-          <h1 class="headingTxt">I’m Hussen. Glad to see you!</h1>
-          <div class="text-2">
-            <p>
-              I’m a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-          </div>
+.topBar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 92px;
+}
 
-          <div class="lets-connect">
-            <a href="#">LET’S CONNECT</a>
-          </div>
-          <ul class="social-media-icons">
-            <li class="list">
-              <a href="https://twitter.com/">
-                <img src="img/t.png" alt="tiwetter" />
-              </a>
-            </li>
-            <li class="list">
-              <a href="https://twitter.com/">
-                <img src="img/Linkedin.png" alt="linkedin" />
-              </a>
-            </li>
-            <li class="list">
-              <a href=""> <img src="img/m.png" alt="medium" /> </a>
-            </li>
-            <li class="list">
-              <a href="https://github.com/HussenYesufAlli">
-                <img src="img/g.png" alt="github" />
-              </a>
-            </li>
-            <li class="list">
-              <a href=""> <img src="img/f.png" alt="f" /> </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="work-section">
-        <!-- card works 1 -->
-        <div class="work-container">
-          <div class="cards">
-            <div class="snapshot-portofolio">
-              <img src="img/work-img/Snapshoot Portfolio.png" alt="SP" />
-            </div>
-            <div class="blocks">
-              <h2 class="project-title txtWrapper">Tonic</h2>
-              <div class="tframes">
-                <h3>CANOPY</h3>
-                <ol class="frames-list">
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>Back End Dev</li>
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>2015</li>
-                </ol>
-              </div>
-              <p class="project-text txtWrapper">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-              <div class="blocks-buttonWrapper">
-                <button class="blocks-button">See Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- card works  2-->
-        <div class="work-container">
-          <div class="cards">
-            <div class="snapshot-portofolio">
-              <img src="img/work-img/Snapshoot Portfolio 2.png" alt="SP" />
-            </div>
-            <div class="blocks">
-              <h2 class="project-title txtWrapper">Multi-Post Stories</h2>
-              <div class="tframes">
-                <h3>CANOPY</h3>
-                <ol class="frames-list">
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>Back End Dev</li>
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>2015</li>
-                </ol>
-              </div>
-              <p class="project-text txtWrapper">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-              <div class="blocks-buttonWrapper">
-                <button class="blocks-button">See Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- card works  3-->
-        <div class="work-container">
-          <div class="cards">
-            <div class="snapshot-portofolio">
-              <img src="img/work-img/Snapshoot Portfolio 3.png" alt="SP" />
-            </div>
-            <div class="blocks">
-              <h2 class="project-title txtWrapper">Tonic</h2>
-              <div class="tframes">
-                <h3>CANOPY</h3>
-                <ol class="frames-list">
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>Back End Dev</li>
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>2015</li>
-                </ol>
-              </div>
-              <p class="project-text txtWrapper">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-              <div class="blocks-buttonWrapper">
-                <button class="blocks-button">See Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- card works  4-->
-        <div class="work-container">
-          <div class="cards">
-            <div class="snapshot-portofolio">
-              <img src="img/work-img/Snapshoot Portfolio 4.png" alt="SP" />
-            </div>
-            <div class="blocks">
-              <h2 class="project-title txtWrapper">Multi-Post Stories</h2>
-              <div class="tframes">
-                <h3>CANOPY</h3>
-                <ol class="frames-list">
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>Back End Dev</li>
-                  <li>
-                    <img src="img/work-img/Counter.png" />
-                  </li>
-                  <li>2015</li>
-                </ol>
-              </div>
-              <p class="project-text txtWrapper">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-              <div class="blocks-buttonWrapper">
-                <button class="blocks-button">See Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about-section">
-        <div class="about-Container">
-          <h2 class="headingTxt">About Myself</h2>
-          <div class="text-2">
-            <p>
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website. Look through some of my work and experience!
-              If you like what you see and have a project you need coded, don’t
-              hesitate to contact me.
-            </p>
-          </div>
+/* My Logo */
 
-          <h5 class="lets-connect">LET’S CONNECT</h5>
-          <ul class="social-media-icons">
-            <li class="list">
-              <a href="https://github.com/HussenYesufAlli">
-                <img src="img/g.png" alt="github" />
-              </a>
-            </li>
-            <li class="list">
-              <a href="">
-                <img src="img/Linkedin.png" alt="linkedin" />
-              </a>
-            </li>
+.logo {
+  padding-left: 10px;
+}
 
-            <li class="list">
-              <a href=""> <img src="img/f.png" alt="f" /> </a>
-            </li>
-            <li class="list">
-              <a href="https://twitter.com/">
-                <img src="img/t.png" alt="tiwetter" />
-              </a>
-            </li>
-            <li class="list">
-              <a href=""> <img src="img/m.png" alt="medium" /> </a>
-            </li>
-          </ul>
-          <div class="blocks-buttonWrapper">
-            <button class="blocks-button">Get my resume</button>
-          </div>
-        </div>
+/* Three dash-setting */
 
-        <ul class="skil-List">
-          <li>
-            <div class="nameList">
-              <span>Language</span><img src="img/about-img/Union 2.png" />
-            </div>
-            <ul class="skil-List-List">
-              <li>
-                <div class="skil-List-List-values">
-                  <img src="img/about-img/Ellipse 1.png" /><span
-                    >javaScript</span
-                  >
-                </div>
-              </li>
-              <li>
-                <div class="skil-List-List-values">
-                  <img src="img/about-img/Ellipse 2.png" /><span>HTML</span>
-                </div>
-              </li>
-              <li>
-                <div class="skil-List-List-values">
-                  <img src="img/about-img/Ellipse 3.png" /><span>CSS</span>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <div class="nameList L-border">
-              <span>Frameworks</span><img src="img/about-img/Union.png" />
-            </div>
-          </li>
-          <li>
-            <div class="nameList L-border">
-              <span>Skills</span><img src="img/about-img/Union.png" />
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="contact-container">
-        <div class="contact-section">
-          <h2>Contact me</h2>
-          <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it!
-          </p>
-          <form
-            class="contact-form-container"
-            action="https://formspree.io/f/{form_id}"
-            method="post"
-          >
-            <input
-              name="name"
-              id="name"
-              type="text"
-              placeholder="Lorem Ipsum"
-              maxlength="30"
-              required
-            />
-            <input
-              name="Email"
-              id="email"
-              type="email"
-              placeholder="loremipsum@gmail.com"
-              maxlength="30"
-              required
-            />
-            <textarea
-              name="message"
-              id="msg"
-              type="text"
-              placeholder="Write your message here..."
-              maxlength="500"
-              required
-              class="placeholder-gray-500"
-            ></textarea>
-            <div class="blocks-buttonWrapper">
-              <button class="blocks-button" type="submit">Get in touch</button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-  </body>
-</html>
+.icon-Union {
+  padding-right: 10px;
+}
+
+/* The headline section  */
+
+.content-section {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/shapes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-Container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 718px;
+  margin-left: 20px;
+  padding-top: 90px;
+}
+
+/* h1 text/Primary Text/personal introduction */
+
+.headingTxt {
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+/* praragraph/Primary Text/ personal description  */
+
+.text-2 {
+  padding: 10px 0;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+/* LET’S CONNECT text */
+.lets-connect {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* social media icons */
+
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.list {
+  border-radius: 0;
+  list-style: none;
+}
+
+/* work-section */
+
+.work-section {
+  width: 100%;
+  height: auto;
+  top: 718px;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 16px, 6px;
+  border-radius: 16px;
+  margin: 36px;
+  border: 1px solid #dfe1e6;
+}
+
+.cards {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+.snapshot-portofolio img {
+  width: 295px;
+  height: 220px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.txtWrapper {
+  width: 80%;
+}
+
+.project-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #344563;
+  padding: 5px;
+}
+
+/* Frame 2 */
+
+.tframes {
+  display: flex;
+  gap: 10px;
+  padding: 3px 0;
+}
+
+.tframes h3 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.frames-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgb(122, 134, 154);
+}
+
+.frames-list img {
+  height: 10px;
+  width: 10px;
+  top: 12px;
+  border-radius: 0;
+}
+
+.project-text {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 10px;
+  gap: 10px;
+}
+
+.tag-list li {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6070ff;
+  background-color: rgb(235, 235, 255);
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.blocks-buttonWrapper {
+  padding: 5px 0;
+}
+
+.blocks-button {
+  border: 1px solid rgb(96, 112, 255);
+  border-radius: 8px;
+  padding: 12px;
+  color: #396df2;
+  background-color: #fff;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.blocks-button:hover {
+  background-color: #6070ff;
+  color: white;
+  transition: all ease 1s;
+}
+
+.blocks-button:active {
+  background-color: hsl(235, 72%, 48%);
+  color: white;
+  transition: all ease 1s;
+}
+
+/* About Myself-section */
+.about-section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 150px;
+  padding-top: 100px;
+  background-image: url(img/about-img/about\ bg.png);
+}
+
+.about-Container {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.skil-List {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 12px;
+  list-style-type: none;
+}
+
+.nameList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.skil-List-List {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 12px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  list-style-type: none;
+}
+
+.skil-List-List-values {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 66.72px;
+  border-radius: 8px;
+  background: #f7f7f9;
+  padding: 12px;
+  gap: 8px;
+}
+
+.L-border {
+  border-bottom: solid #f7f7f9;
+}
+
+.skil-List-List-values img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.list a img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Contact me */
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  background-image: url(img/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6070ff;
+  border-top-left-radius: 80px 80px;
+  background-position: right 100%;
+}
+
+.contact-section {
+  height: 779px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 15px;
+}
+
+.contact-section h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.contact-section p {
+  font-family: var(--primary-font);
+  left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 15px;
+  padding: 20 25px;
+}
+
+.contact-form-container input {
+  width: 100%;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: var(--primary-font);
+  color: #172b4d;
+  box-sizing: border-box;
+  outline: none;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 5px;
+}
+
+.contact-form-container textarea {
+  width: 100%;
+  height: 180px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7d7f83;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 5px;
+}
+
+.contact-form-container textarea:focus,
+input:focus {
+  border-color: rgb(98, 108, 201);
+}
+
+@media (min-width: 375px) {
+  .content-section {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-section {
+    width: 80%;
+  }
+}
