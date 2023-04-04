@@ -19,24 +19,29 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #e5e5e5;
+}
+
 .topBar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 80px;
+  top: 5px;
 }
 
 /* My Logo */
 
 .logo {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 /* Three dash-setting */
 
 .icon-Union {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 /* The headline section  */
@@ -419,7 +424,7 @@ input:focus {
   border-color: rgb(98, 108, 201);
 }
 
-.headerlish {
+.headerlist {
   display: none;
 }
 
@@ -438,7 +443,7 @@ input:focus {
 
   .topBar-nav {
     position: sticky;
-    top: 0;
+    top: 5px;
     background-color: white;
   }
 
@@ -446,7 +451,7 @@ input:focus {
     display: flex;
     gap: 8px;
     list-style-type: none;
-    padding-right: 20px;
+    padding-right: 50px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
@@ -456,6 +461,9 @@ input:focus {
     position: sticky;
     top: 0;
   }
+  .headerlist a {
+    color: #344563;
+  }
 
   .headerlist a:hover {
     color: rgb(24, 155, 160);
@@ -463,12 +471,15 @@ input:focus {
 
   .content-section {
     background-image: url(img/Header\ bg-desktop.png);
-    background-size: contain;
+    background-size: cover;
     display: flex;
     height: 718px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-bottom-left-radius: 300px 200px;
+    background-color: white;
+    background-position: center;
   }
 
   .main-Container {
@@ -479,7 +490,10 @@ input:focus {
 
   .work-container {
     display: flex;
+    gap: 20px;
     margin: 30px 10px;
+    align-items: center;
+    justify-content: center;
   }
 
   .cards {
@@ -491,11 +505,15 @@ input:focus {
   }
 
   .snapshot-portofolio img {
+    width: 100%;
+    height: auto;
     padding-bottom: 0;
   }
 
   .blocks {
+    width: 40%;
     gap: 10px;
+    height: auto;
   }
 
   .tframes {
@@ -532,9 +550,11 @@ input:focus {
     height: auto;
     gap: 12px;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     justify-content: center;
-    margin: 0;
+    align-items: center;
+    border-top-right-radius: 100px 200px;
+    background-position: center;
   }
 
   .aboutWrapper {
@@ -543,7 +563,7 @@ input:focus {
   }
 
   .about-Container .headingTxt {
-    width: 100%;
+    width: 60%;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -571,6 +591,11 @@ input:focus {
     align-items: flex-start;
     width: 120px;
     height: auto;
+  }
+  .skil-List-List-values img {
+    width: 48px;
+    height: 48px;
+    border-radius: 20px;
   }
 
   /* comtact me section */
