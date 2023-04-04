@@ -419,6 +419,11 @@ input:focus {
   border-color: rgb(98, 108, 201);
 }
 
+textarea::placeholder {
+  color: rgb(48, 58, 61);
+  opacity: 0.5;
+}
+
 @media (min-width: 375px) {
   .content-section {
     background-size: cover;
@@ -427,6 +432,6 @@ input:focus {
 
 @media (min-width: 768px) {
   .content-section {
-    width: 80%;
+    width: 100%;
   }
 }
