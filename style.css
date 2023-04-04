@@ -461,6 +461,7 @@ input:focus {
     position: sticky;
     top: 0;
   }
+  
   .headerlist a {
     color: #344563;
   }
@@ -592,6 +593,7 @@ input:focus {
     width: 120px;
     height: auto;
   }
+  
   .skil-List-List-values img {
     width: 48px;
     height: 48px;
